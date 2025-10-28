@@ -1,0 +1,120 @@
+{
+  "products": [
+    {
+      "name_ar": "شاي تلغمسه",
+      "name_en": "Traditional Tea",
+      "description_ar": "شاي تقليدي بنكهة أصيلة.",
+      "sku": "TEA-TRAD-001",
+      "category": { "name_ar": "المشروبات الساخنة", "name_en": "Hot Drinks" },
+      "pricing": { "base_price": 7, "currency": "SAR" },
+      "base_price": 7,
+      "inventory": { "stock_quantity": 200, "reorder_threshold": 40, "availability_status": "available" },
+      "specifications": { "origin": "Saudi", "brew": "Light" },
+      "images": ["/black-tea.png"],
+      "related_skus": ["TEA-MINT-003", "COF-ARAB-010"]
+    },
+    {
+      "name_ar": "شاي بخار",
+      "name_en": "Steam Tea",
+      "description_ar": "شاي بنكهة قوية.",
+      "sku": "TEA-STEAM-002",
+      "category": { "name_ar": "المشروبات الساخنة", "name_en": "Hot Drinks" },
+      "pricing": { "base_price": 6, "currency": "SAR" },
+      "base_price": 6,
+      "inventory": { "stock_quantity": 180, "reorder_threshold": 30, "availability_status": "available" },
+      "specifications": { "brew": "Strong" },
+      "images": ["/ginger-tea.png"],
+      "related_skus": ["TEA-TRAD-001"]
+    },
+    {
+      "name_ar": "نعناع",
+      "name_en": "Mint Tea",
+      "description_ar": "شاي بالنعناع منعش.",
+      "sku": "TEA-MINT-003",
+      "category": { "name_ar": "المشروبات الساخنة", "name_en": "Hot Drinks" },
+      "pricing": { "base_price": 6, "currency": "SAR" },
+      "base_price": 6,
+      "inventory": { "stock_quantity": 150, "reorder_threshold": 30, "availability_status": "available" },
+      "specifications": { "herb": "Mint" },
+      "images": ["/mint-tea.png"],
+      "related_skus": ["TEA-TRAD-001", "TEA-STEAM-002"]
+    },
+    {
+      "name_ar": "قهوة اليوم",
+      "name_en": "Coffee of the Day",
+      "description_ar": "اختيار يومي من القهوة الطازجة.",
+      "sku": "COF-DAILY-004",
+      "category": { "name_ar": "المشروبات الساخنة", "name_en": "Hot Drinks" },
+      "pricing": { "base_price": 8, "currency": "SAR" },
+      "base_price": 8,
+      "inventory": { "stock_quantity": 120, "reorder_threshold": 20, "availability_status": "available" },
+      "specifications": { "roast": "Medium" },
+      "images": ["/latte-art.png", "/espresso-shot.png"],
+      "related_skus": ["COF-ARAB-010"]
+    },
+    {
+      "name_ar": "قهوة عربية",
+      "name_en": "Arabic Coffee",
+      "description_ar": "قهوة عربية بنكهة الهيل.",
+      "sku": "COF-ARAB-010",
+      "category": { "name_ar": "المشروبات الساخنة", "name_en": "Hot Drinks" },
+      "pricing": { "base_price": 15, "currency": "SAR" },
+      "base_price": 15,
+      "inventory": { "stock_quantity": 80, "reorder_threshold": 20, "availability_status": "available" },
+      "specifications": { "spice": "Cardamom" },
+      "images": ["/arabic-coffee.png"],
+      "related_skus": ["COF-DAILY-004"]
+    },
+
+    {
+      "name_ar": "شاي مثلج خوخ",
+      "name_en": "Peach Iced Tea",
+      "description_ar": "شاي مثلج بطعم الخوخ.",
+      "sku": "ICETEA-PEACH-101",
+      "category": { "name_ar": "المشروبات الباردة", "name_en": "Cold Drinks" },
+      "pricing": { "base_price": 10, "currency": "SAR" },
+      "inventory": { "stock_quantity": 140, "reorder_threshold": 25, "availability_status": "available" },
+      "specifications": { "fruit": "Peach" },
+      "images": ["/iced-tea.png"],
+      "related_skus": ["ICETEA-MINT-102"]
+    },
+    {
+      "name_ar": "شاي مثلج نعناع",
+      "name_en": "Mint Iced Tea",
+      "description_ar": "شاي مثلج منعش بالنعناع.",
+      "sku": "ICETEA-MINT-102",
+      "category": { "name_ar": "المشروبات الباردة", "name_en": "Cold Drinks" },
+      "pricing": { "base_price": 12, "currency": "SAR" },
+      "inventory": { "stock_quantity": 120, "reorder_threshold": 20, "availability_status": "available" },
+      "specifications": { "herb": "Mint" },
+      "images": ["/refreshing-mojito.png"],
+      "related_skus": ["ICETEA-PEACH-101"]
+    },
+
+    {
+      "name_ar": "مكسرات تركية",
+      "name_en": "Turkish Nuts",
+      "description_ar": "تشكيلة مكسرات تركية طازجة.",
+      "sku": "SNACK-NUTS-201",
+      "category": { "name_ar": "سناكات وموالح", "name_en": "Snacks & Savory" },
+      "pricing": { "base_price": 8, "currency": "SAR" },
+      "inventory": { "stock_quantity": 60, "reorder_threshold": 10, "availability_status": "available" },
+      "specifications": { "salt": "Light" },
+      "images": ["/assorted-cookies.png"],
+      "related_skus": ["PASTRY-MAGHEN-301"]
+    },
+
+    {
+      "name_ar": "فطيرة مغن",
+      "name_en": "Maghen Pie",
+      "description_ar": "فطيرة خاصة بمغن.",
+      "sku": "PASTRY-MAGHEN-301",
+      "category": { "name_ar": "الفطائر", "name_en": "Pastries" },
+      "pricing": { "base_price": 11, "currency": "SAR" },
+      "inventory": { "stock_quantity": 90, "reorder_threshold": 15, "availability_status": "available" },
+      "specifications": { "size": "Medium" },
+      "images": ["/classic-cheesecake.png"],
+      "related_skus": ["SNACK-NUTS-201"]
+    }
+  ]
+}
