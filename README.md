@@ -34,10 +34,9 @@ Do not commit secrets. See `SUPABASE_SETUP_GUIDE.md` for schema and seed.
 
 Screenshots are stored under `public/` in PNG format, 800px width, and optimized to be under 500KB each.
 
-### Demo Video
-- High-level walkthrough of the customer flow and admin dashboard.
-<video src="public/Demo%20Videw.MP4" controls width="800"></video>
-<br>
+### 🎥 Demo Video
+[Click here to watch the demo](./public/Demo%20Video.MP4)
+
 [Download demo video](public/Demo%20Videw.MP4)
 
 ### Home (Mobile)
