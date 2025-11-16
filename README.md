@@ -32,113 +32,64 @@ Do not commit secrets. See `SUPABASE_SETUP_GUIDE.md` for schema and seed.
 
 ## Interface Gallery
 
-All screenshots should be placed under `docs/screenshots/` in PNG format, 800px width, and optimized to be under 500KB each.
+Screenshots are stored under `public/` in PNG format, 800px width, and optimized to be under 500KB each.
 
-### Home
-- Overview of the landing page with hero section, video background, and call-to-action.
-<img src="docs/screenshots/home.png" alt="Home interface with hero, video background, and start order CTA" width="800">
+### Demo Video
+- High-level walkthrough of the customer flow and admin dashboard.
+<video src="public/Demo%20Videw.MP4" controls width="800"></video>
+<br>
+[Download demo video](public/Demo%20Videw.MP4)
 
-### Login
-- Customer login interface, minimal inputs and error state handling.
-<img src="docs/screenshots/login.png" alt="Customer login interface" width="800">
+### Home (Mobile)
+- Landing experience with hero, warm background, logo, and primary call-to-action.
+<img src="public/rishtea-home-mobile.png" alt="Home interface (mobile) with hero and CTA" width="800">
 
-### Menu
-- Interactive menu view showing product cards, categories, and add-to-order actions.
-<img src="docs/screenshots/menu.png" alt="Menu interface with product cards and categories" width="800">
-
-### Track Order
-- Real-time order tracking screen by code/ID, showing status and items.
-<img src="docs/screenshots/track-order.png" alt="Order tracking interface by order code" width="800">
-
-### Payment
-- Payment step with table number capture and method selection.
-<img src="docs/screenshots/payment.png" alt="Payment interface with method selection" width="800">
-
-### Profile
-- User profile page for preferences and saved information.
-<img src="docs/screenshots/profile.png" alt="User profile interface" width="800">
+### Menu (Mobile)
+- Mobile menu view showing product cards, categories, and add-to-order actions.
+<img src="public/rishtea-menu-mobile.png" alt="Menu interface (mobile) with product cards and categories" width="800">
 
 ### Admin Login
-- Admin authentication screen with role-gated access.
-<img src="docs/screenshots/admin-login.png" alt="Admin login interface" width="800">
+- Admin authentication screen with email/password and session handling.
+<img src="public/rishtea-admin-login.png" alt="Admin login interface" width="800">
 
-### Admin Dashboard (Overview)
-- Overview dashboard with recent orders, stats, navigation to modules.
-<img src="docs/screenshots/admin-dashboard.png" alt="Admin dashboard overview" width="800">
+### Admin Dashboard (Main)
+- Overview dashboard with recent orders, KPIs, and navigation.
+<img src="public/rishtea-admin-main-dashboard.png" alt="Admin main dashboard overview" width="800">
 
-### Admin: Add-ons
-- Manage add-on items, create/update, and assign to products.
-<img src="docs/screenshots/admin-add-ons.png" alt="Admin add-ons management interface" width="800">
+### Admin Dashboard (Advanced)
+- Extended dashboard views and enhanced metrics.
+<img src="public/rishtea-admin-advanced-dashboard.png" alt="Admin advanced dashboard" width="800">
 
-### Admin: Categories
-- Category management with create/edit and visibility controls.
-<img src="docs/screenshots/admin-categories.png" alt="Admin categories management interface" width="800">
+### Admin: Order Details
+- Detailed order view with items, statuses, and customer info.
+<img src="public/rishtea-admin-order-details.png" alt="Admin order details interface" width="800">
 
-### Admin: Customers
-- Customer management list with search and details.
-<img src="docs/screenshots/admin-customers.png" alt="Admin customers interface" width="800">
+### Admin: Products List
+- Products table with actions to create, edit, and manage inventory.
+<img src="public/rishtea-admin-products-list.png" alt="Admin products list interface" width="800">
 
-### Admin: Customization
-- Define customization groups and options applied to products.
-<img src="docs/screenshots/admin-customization.png" alt="Admin customization groups and options interface" width="800">
-
-### Admin: Discounts
-- Discount management, codes and rules.
-<img src="docs/screenshots/admin-discounts.png" alt="Admin discounts interface" width="800">
-
-### Admin: Enhanced Products
-- Enhanced product management features and bulk updates.
-<img src="docs/screenshots/admin-enhanced.png" alt="Admin enhanced product management interface" width="800">
-
-### Admin: Orders
-- Orders list with details, status updates, and recent activity.
-<img src="docs/screenshots/admin-orders.png" alt="Admin orders interface" width="800">
-
-### Admin: Products
-- Products table with create/edit and inventory controls.
-<img src="docs/screenshots/admin-products.png" alt="Admin products table interface" width="800">
-
-### Admin: Product Preview
-- Single product preview page showing images and customizations.
-<img src="docs/screenshots/admin-product-preview.png" alt="Admin product preview interface" width="800">
-
-### Admin: New Product
-- Form for creating a new product with images and variants.
-<img src="docs/screenshots/admin-product-new.png" alt="Admin new product interface" width="800">
-
-### Admin: Settings
-- Store settings including payment methods and branding.
-<img src="docs/screenshots/admin-settings.png" alt="Admin store settings interface" width="800">
-
-### Admin: Taxes
-- Tax rules configuration and calculation settings.
-<img src="docs/screenshots/admin-taxes.png" alt="Admin tax rules interface" width="800">
-
-### Admin: Users
-- Staff/user management with roles.
-<img src="docs/screenshots/admin-users.png" alt="Admin users management interface" width="800">
+### Admin: Tax Settings
+- Tax rules configuration, thresholds, and calculation settings.
+<img src="public/rishtea-admin-tax-settings.png" alt="Admin tax settings interface" width="800">
 
 ## Screenshot Guidelines
 - Format: PNG
 - Width: 800px
 - Size: under 500KB each
 - Naming: use lowercase, hyphen-separated names matching section titles
-- Placement: put images in `docs/screenshots/` and ensure references in this README match file names exactly
+- Placement: put images in `public/` and ensure references in this README match file names exactly
 
 ## Adding Screenshots
 Run the following commands to add images and commit them:
 ```bash
-git add docs/screenshots/home.png
-git commit -m "docs(screenshots): add Home interface"
+git add public/rishtea-home-mobile.png public/rishtea-menu-mobile.png
+git commit -m "docs(screenshots): add customer interfaces (Home, Menu)"
 
-git add docs/screenshots/login.png docs/screenshots/menu.png docs/screenshots/track-order.png
-git commit -m "docs(screenshots): add customer interfaces (Login, Menu, Track Order)"
-
-git add docs/screenshots/payment.png docs/screenshots/profile.png
-git commit -m "docs(screenshots): add Payment and Profile interfaces"
-
-git add docs/screenshots/admin-*.png
+git add public/rishtea-admin-*.png
 git commit -m "docs(screenshots): add Admin interface set"
+
+git add "public/Demo Videw.MP4"
+git commit -m "docs(media): add demo video"
 ```
 
 After all images are added:
